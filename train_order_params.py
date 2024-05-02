@@ -17,13 +17,15 @@ from scipy import signal
 from scipy.ndimage import gaussian_filter1d
 from local_Ylms import *
 
-data_dir = '/Users/mayamartirossyan/Documents/research/manuscripts/crystal growth/Code/Data_test' 
+data_dir = '/your/data/dir/here' 
 # put in your Data directory as data_dir
 # needs to be a global path
 
 structures = os.listdir(data_dir)
 try:
     structures.remove('.DS_Store')
+except:
+    pass
 
 for struc in structures:
 
@@ -37,7 +39,7 @@ for struc in structures:
 
         frame_indices = training_params['training_frames']
         frame_list = training_params['training_frames']
-        #frame_list = list(range(0,getFrameCount(dump_dir)))
+        #frame_list = list(range(0,getFrameCount(dump_file)))
         
         descriptor_params = training_params['descriptor_params']
         neigh_max = descriptor_params['neigh_max']
