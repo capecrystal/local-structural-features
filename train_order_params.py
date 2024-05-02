@@ -26,6 +26,10 @@ try:
     structures.remove('.DS_Store')
 except:
     pass
+try:
+    structures.remove('README.txt')
+except:
+    pass
 
 for struc in structures:
 
