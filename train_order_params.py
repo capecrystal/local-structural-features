@@ -57,9 +57,9 @@ for struc in structures:
 
     params = getParams(neigh_max, lmax)
     NPCA = 64
-    cluster_range = True
-    NN = True
-    tSNE = True
+    cluster_range = False # set True to test a range of GMM cluster numbers
+    NN = False # set True to create coordination number data and histograms for each GMM cluster
+    tSNE = False # set True to create t-stochastic neighbor embeddings of PCA data, and color by GMM cluster
 
     for mode in params:
 
