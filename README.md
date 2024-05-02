@@ -1,5 +1,5 @@
 
-The following code accompanies the "Local structural features elucidate crystallization of complex structures" (https://arxiv.org/abs/2401.13765) preprint by M. M. Martirossyan, M. Spellings, H. Pan, and J. Dshemuchadse. This codebase utilizes the Steinhardt order parameter as well the descriptor and methods from Spellings and Glotzer (https://doi.org/10.1002/aic.16157) in order to build local order metrics via unsupervised learning that can distinguish similar crystallographic sites (local environments) in complex structures.
+The following code accompanies the "Local structural features elucidate crystallization of complex structures" (https://arxiv.org/abs/2401.13765) preprint by M. M. Martirossyan, M. Spellings, H. Pan, and J. Dshemuchadse. This codebase utilizes the Steinhardt order parameter as well the descriptor and methods from Spellings and Glotzer (https://doi.org/10.1002/aic.16157) in order to build local order metrics via unsupervised learning that can distinguish similar crystallographic sites in complex structures.
 
 The following python libraries will need to be installed in order to run this code:
 - numpy
