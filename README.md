@@ -14,7 +14,7 @@ The following python libraries will need to be installed in order to run this co
 - matplotlib
 
 
-This code can be used in conjunction with simulation data deposited to the Materials Data Facility (MDF) at the following link: <>. Hyperparameters used for each structure are included as a training.json file.
+This code can be used in conjunction with simulation data deposited to the Materials Data Facility (MDF) at the following site: https://doi.org/10.18126/wy01-4e11. Hyperparameters used for each structure are included as a training.json file.
 
 The local_Ylms.py file contains all the functions for creating local descriptors and performing unsupervised learning to build local order parameters by clustering particles. It also contains additional functions for plotting coordination number histograms as well as performing t-distributed stochastic neighbor embedding (tSNE) on clustered data.
 
